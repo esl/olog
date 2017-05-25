@@ -1,0 +1,3 @@
+-define(INFO,    info).
+-define(WARNING, warning).
+-define(ERROR,   error).

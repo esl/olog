@@ -1,0 +1,19 @@
+{application, olog,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { olog_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    csi,
+    cfg,
+    lager
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
